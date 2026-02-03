@@ -1,3 +1,24 @@
-.body {
-    background-color: #EE77FF;
+/* Light theme */
+body.light-theme {
+    --bg-color: #FFB6C1;
+    --text-color: #FF474C;
+}
+
+/* Dark theme */
+body.dark-theme {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 75vw;
+    min-height: 100vh;
+    margin-right: 60%;
 }
