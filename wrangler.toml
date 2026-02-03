@@ -1,0 +1,4 @@
+name = "itsjustgalileo"
+
+[assets]
+directory = "./dist" # Point to your built assets directory
