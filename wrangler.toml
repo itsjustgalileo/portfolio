@@ -1,4 +1,6 @@
 name = "itsjustgalileo"
+# Remove the 'main' field if it's a static-only site with no Worker code
+compatibility_date = "2025-05-28"
 
 [assets]
 directory = "./dist" # Point to your built assets directory
