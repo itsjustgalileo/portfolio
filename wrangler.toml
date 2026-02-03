@@ -1,4 +1,4 @@
-name = "itsjustgalileo"
+name = "portfolio"
 # Remove the 'main' field if it's a static-only site with no Worker code
 compatibility_date = "2025-05-28"
 
